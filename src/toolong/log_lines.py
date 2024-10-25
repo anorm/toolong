@@ -151,7 +151,7 @@ class LogLines(ScrollView, inherit_bindings=False):
     LogLines {
         scrollbar-gutter: stable;
         overflow: scroll;
-        border: heavy transparent;        
+        border: heavy transparent;
         .loglines--filter-highlight {
             background: $secondary;
             color: auto;
@@ -164,19 +164,19 @@ class LogLines(ScrollView, inherit_bindings=False):
         }
 
         border-subtitle-color: $success;
-        border-subtitle-align: center;        
+        border-subtitle-align: center;
         align: center middle;
 
         &.-scanning {
             tint: $background 30%;
         }
         .loglines--line-numbers {
-            color: $warning 70%;            
+            color: $warning 70%;
         }
         .loglines--line-numbers-active {
-            color: $warning;            
+            color: $warning;
             text-style: bold;
-        }               
+        }
     }
     """
     COMPONENT_CLASSES = {
